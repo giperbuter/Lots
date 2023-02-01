@@ -1,0 +1,11 @@
+name: Lots
+version: 0.0.1
+main: com.github.giperbuter.Lots
+api-version: 1.19
+commands:
+  submit:
+    description: count all the golden apples in your inventory and delete them
+    usage: /submit
+  merge:
+    description: sends a request to merge with the given player, if the given player wont reply with /merge <yourname> within 1- seconds, the request will expire.
+    usage: /merge <name>
